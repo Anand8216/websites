@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>styling check!</title>
+    <link rel="stylesheet" href="yt1.css">
+    <script type="text/javascript" src="jquery-3.6.0.js"></script>
+    <script src="https://kit.fontawesome.com/2f7efb2200.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Shubham's World</h3>
+                <p class="p">
+                    Hey! Guys 
+                    Welcome to my world!
+
+                    want to know more ,
+                    about me...
+                    <i class="fas fa-smile"style="color:gold"></i>
+                    <i class="fas fa-smile"style="color:gold"></i>
+                    <i class="fas fa-smile"style="color:gold"></i>
+                </p>
+                 <a href="index2.html">Know More</a>
+                 
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="content">
+                <h2>02</h2>
+                <h3>shubham</h3>
+                <p class="p">
+                
+                <img src="anandshubhamsingh.png" class="imgs">
+            </p>
+                 <a href="index3.html">My Portfolio</a>
+                 
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Join Me</h3>
+                <p class="p">
+                 Check out my Project!
+                 Do review it!
+                 <i class="fas fa-star" style="color:gold"></i>
+                 <i class="fas fa-star"style="color:gold"></i>
+                 <i class="fas fa-star"style="color:gold"></i>
+                 <i class="fas fa-star"style="color:gold"></i>
+                 <i class="fas fa-star-half-alt"style="color:gold"></i>
+
+
+               </p>
+                 <a href="#">Lets Go!</a>
+                 
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.babel.js"></script>
+    <script>
+        VanillaTilt.init(document.querySelectorAll(".card"), {
+            max: 25,
+            speed: 400,
+            glare:true,
+            "max-glare":1,
+
+        });
+       
+
+
+        </script>
+        <script type="text/javascript">
+          $( ".card" ).sortable();
+        </script>
+</body>
+</html>
